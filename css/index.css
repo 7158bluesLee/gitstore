@@ -1,0 +1,114 @@
+body{
+	background: #eee;
+}
+.n-book, .n-news, .n-prize{
+	height: 7%;
+	background: #3091d5;
+	position: relative;
+}
+.n-title{
+	padding: 0 10px 0 10px;
+	color: #ffeee1;
+	font-size: 14px;
+	text-align: center;
+	font-family: Microsoft Yahei;
+}
+#c-book{
+	background: #fff;
+	margin: 4px auto;
+	width: 97%;
+}
+#c-book ul{
+	height: 100%;
+	width: 100%;
+}
+#c-news{
+	margin: 4px auto;
+	width: 97%;
+	height: 98%;
+}
+#c-news a{
+	color: #000;
+}
+#c-prize{
+	height: 20%;
+}
+.book-li{
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+}
+.book-li a{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+.book-li img{
+	width: 100%;
+	height: 100%;
+}
+#n-top{
+	height: 49%;
+	background: #fff;
+}
+#border{
+	height: 2px;
+	width: 100%;
+	background: #ccc;
+}
+#n-bottom{
+	height: 49%;
+	background: #fff;
+}
+#n-top img, #n-bottom img{
+	width: 100%;
+	height: 100%;
+	/*margin: 3px 0 0 0px;*/
+}
+#n-bottom .news-content, #n-top .news-content{
+	height: 100%;
+	width: 70%;
+	display: block;
+	float:right;
+	font-size: 13px;
+	text-indent: 10px;
+	overflow: hidden;
+}
+.news-content p{
+	padding: 10px;
+	height: 60%;
+	overflow: hidden;
+	font-family: Microsoft Yahei;
+}
+#c-prize .p-con{
+	height: 100%;
+	margin: 0 8px 0 8px;
+	overflow: hidden;
+	position: relative;
+}
+#c-prize ul{
+	height: 100%;
+	position: absolute;
+}
+#c-prize ul li{
+	float: left;
+	height: 100%;
+	margin-right: 10px;
+}
+#c-prize ul li img{
+	height: 100%;
+	width: 100%;
+}
+.r-icon{
+	display: inline-block;
+	height: 20px;
+	padding-right: 20px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -10px;
+}
+.r-icon img{
+	width: 20px;
+	height: 20px;
+}
